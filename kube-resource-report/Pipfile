@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kubernetes = "*"
+requests = "*"
+click = "*"
+stups-tokens = "*"
+"jinja2" = "*"
+requests-futures = "*"
+
+[dev-packages]
+flake8 = "*"
+pytest = "*"
+pytest-watch = "*"
+black = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
